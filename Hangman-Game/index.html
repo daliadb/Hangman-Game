@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camp Firewood Hangman</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+  </head>
+  <body class="navbar-inverse">
+    <h1 class='text-center'><u>CAMP FIREWOOD HANGMAN</u></h1>
+    <blockquote>
+      <p class="text-center slogan">Save Elliot *cough*, I mean, Gene from the camp curse!</p>
+    </blockquote>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+          <div class='hangContain'>
+        <div class='postUp vanish'></div>
+        <div class='postRight vanish'></div>
+        <div class='rope vanish'></div>
+        <div class='head vanish'></div>
+        <div class='body vanish'></div>
+        <div class='leftArm vanish'></div>
+        <div class='rightArm vanish'></div>
+        <div class='leftLeg vanish'></div>
+        <div class='rightLeg vanish'></div>
+        <div class='floor vanish'></div>
+          </div>
+      </div>
+      <div class="col-sm-3 col-am-offset-1">
+        <h4 class="text-center"><i><u>Instructions:</u></i></h4>
+        <p class="description">
+          Oh no! Look's like the Camp Firewood curse got hold of Gene, and it's up to you to free him! This game plays out like typical hangman: guess individual letters to spell the winning word before running out of chances. Lose all your chances and poor Gene's a gonner. All possible winning words have something to do with camp life and the people there. You have 10 guesses. Make sure caps lock is off. Let's go save Gene! Type any letter below to start.</span>
+        </p>
+
+        <div class="gameLetters">
+          <span>Answer: </span>
+
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 col-md-offset-1">
+          <div class="counter">
+            <p id='chances'>Chances Remaining: 10</p>
+            <p id='correct'>Correct: 0</p>
+            <p id='incorrect'>Incorrect: 0 </p>
+          </div>
+        </div>
+
+        <div class="col-sm-7 text-right col-md-offset-1">
+        <h2 class='letters'>A</h2>
+        <h2 class='letters'>B</h2>
+        <h2 class='letters'>C</h2>
+        <h2 class='letters'>D</h2>
+        <h2 class='letters'>E</h2>
+        <h2 class='letters'>F</h2>
+        <h2 class='letters'>G</h2>
+        <h2 class='letters'>H</h2>
+        <h2 class='letters'>I</h2>
+        <h2 class='letters'>J</h2>
+        <h2 class='letters'>K</h2>
+        <h2 class='letters'>L</h2>
+        <h2 class='letters'>M</h2>
+        <div class="row">
+          <div class="col-sm-12 text-right col-md-offset-1">
+            <h3 class='letters'>N</h3>
+            <h3 class='letters'>O</h3>
+            <h3 class='letters'>P</h3>
+            <h3 class='letters'>Q</h3>
+            <h3 class='letters'>R</h3>
+            <h3 class='letters'>S</h3>
+            <h3 class='letters'>T</h3>
+            <h3 class='letters'>U</h3>
+            <h3 class='letters'>V</h3>
+            <h3 class='letters'>W</h3>
+            <h3 class='letters'>X</h3>
+            <h3 class='letters'>Y</h3>
+            <h3 class='letters'>Z</h3>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+      <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src='assets/javascript/game.js'></script>
+
+  </body>
+</html>

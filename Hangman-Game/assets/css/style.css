@@ -1,0 +1,208 @@
+/* =========== Inherited Styles =========== */
+
+html,body{
+  color: white;
+  background-color: tan;
+}
+
+
+/* =========== Instructional Text =========== */
+
+
+
+.slogan{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+  color: tan;
+  text-align: center;
+}
+
+.description span{
+  color: firebrick;
+  text-align: center;
+}
+
+.gameLetters span{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+/* =========== Game Pieces =========== */
+
+
+.gameLetters h3{
+  border: 1.5px dotted grey;
+  color: transparent;
+  padding: 4px 4px;
+  display: inline-block;
+}
+
+.hangContain{
+  border: 1px dashed white;
+  width: 65%;
+  height: 375px;
+}
+
+.postUp{
+background-color: sienna;
+display: inline-block;
+height: 350px;
+position: relative;
+width: 10px;
+}
+
+.postRight{
+background-color: sienna;
+bottom: 340px;
+display: inline-block;
+height: 10px;
+left: -3px;
+position: relative;
+width: 120px;
+}
+
+.rope{
+background-color: khaki;
+bottom:310px;
+display: inline-block;
+height: 40px;
+position: relative;
+right:17px;
+width: 10px;
+}
+
+.head{
+background-color: grey;
+bottom:270px;
+border-radius: 50%;
+display: inline-block;
+height: 40px;
+position: relative;
+right: 46px;
+width: 40px;
+z-index: 10;
+}
+
+.body{
+background-color: grey;
+bottom: 197px;
+display: inline-block;
+height: 75px;
+position: relative;
+right:75px;
+width: 12px;
+}
+
+.leftArm{
+background-color: grey;
+bottom: 250px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:140px;
+width: 50px;
+}
+
+.rightArm{
+background-color: grey;
+bottom: 250px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:132px;
+width: 50px;
+}
+
+.leftLeg{
+background-color: grey;
+bottom: 173px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:232px;
+transform: rotate(120deg);
+width: 50px;
+z-index: 2;
+}
+
+.rightLeg{
+background-color: grey;
+bottom: 187px;
+height: 10px;
+position: relative;
+left: 116px;
+transform: rotate(62deg);
+width: 50px;
+}
+
+
+.floor{
+  border: 5px solid saddlebrown;
+  bottom: 10px;
+  position: relative;
+  width: 70%;
+}
+
+.counter{
+  display: block;
+  font-size: 1.20em;
+  margin: 30px 0px 0px 15px;
+  width: 100%;
+}
+
+#chances{
+  color: tan;
+}
+
+#correct{
+  color:grey;
+}
+
+#incorrect{
+  color: white;
+}
+
+.letters{
+  display: inline-block;
+  padding: 17px;
+}
+
+.letters:hover{
+  color: darkgrey;
+}
+
+
+/* =========== Movement =========== */
+
+.vanish{
+  display: none;
+}
+
+.charGuessed{
+  background-color: black;
+  color: black;
+}
+
+
+/* =========== Endgame =========== */
+
+
+.endGame{
+  height:100vh;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.endGame h1{
+  margin: 0;
+  padding-top: 30px;
+}
+
+.endGame button{
+  margin-top: 30px;
+}
